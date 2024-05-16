@@ -30,15 +30,14 @@
 
 ```bash
 $ npm install
+
+# create database
+$ npx prisma migrate
 ```
 
 ## Running the app
 
 ```bash
-
-# create database
-$ npx prisma migrate
-
 # development
 $ npm run start
 
